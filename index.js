@@ -1,4 +1,31 @@
+const triplo =  (valor) => {
+     console.log ("Agora estamos calculando o triplo de " + valor)
+     return (
+          3 * valor
+     ); 
+}
 
+console.log (triplo(5))
+
+// const dobro = (valor) => valor * 2
+// console.log (dobro (10))
+
+// const hello = () => console.log ("Hello")
+// hello()
+
+
+
+// //arrow function
+// const dobro = n => n * 2
+
+// console.log(dobro (2))
+
+
+
+
+// function dobro (n){
+//      return n * 2
+// }
 
 
 
