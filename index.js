@@ -1,17 +1,24 @@
+// const teste = () => {
+//      console.log ("Um log")
+//      return
+//           2 + 2
+// }
+
+
+
 const triplo =  (valor) => {
      console.log ("Agora estamos calculando o triplo de " + valor)
-     return (
+     return
           3 * valor
-     ); 
+     
 }
-
 console.log (triplo(5))
+
+// console.log (triplo(5))
 
 // const dobro = (valor) => valor * 2
 // console.log (dobro (10))
 
-// const hello = () => console.log ("Hello")
-// hello()
 
 
 

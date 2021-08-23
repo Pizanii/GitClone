@@ -1,0 +1,23 @@
+{
+  "name": "topicos_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/professorbossini/20212_usjt_ads1am_mcb_topicos_javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/professorbossini/20212_usjt_ads1am_mcb_topicos_javascript/issues"
+  },
+  "homepage": "https://github.com/professorbossini/20212_usjt_ads1am_mcb_topicos_javascript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
