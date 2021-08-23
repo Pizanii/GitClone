@@ -1,3 +1,36 @@
+let pessoa = {
+     nome: "Maria",
+     idade: 21,
+     endereco: {
+          logradouro: 'Rua B',
+          numero: 121
+     }
+}
+console.log (
+     `
+          Me chamo ${pessoa.nome},
+          tenho ${pessoa.idade} anos
+          e moro na ${pessoa.endereco['logradouro']}
+          número ${pessoa['endereco']['numero']}.
+     
+     `
+)
+
+
+// let pessoa = {
+//      nome: "João",
+//      idade: 17
+// }
+
+// console.log ("Me chamo " + pessoa.nome)
+// console.log ("Tenho " + pessoa['idade'] + ' anos.')
+
+
+//XML - Passado
+
+//Javascript Object Notation: JSON
+
+
 // const teste = () => {
 //      console.log ("Um log")
 //      return
@@ -6,13 +39,13 @@
 
 
 
-const triplo =  (valor) => {
-     console.log ("Agora estamos calculando o triplo de " + valor)
-     return
-          3 * valor
+// const triplo =  (valor) => {
+//      console.log ("Agora estamos calculando o triplo de " + valor)
+//      return
+//           3 * valor
      
-}
-console.log (triplo(5))
+// }
+// console.log (triplo(5))
 
 // console.log (triplo(5))
 
