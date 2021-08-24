@@ -1,19 +1,19 @@
 let pessoa = {
-     nome: "Maria",
-     idade: 21,
-     endereco: {
-          logradouro: 'Rua B',
-          numero: 121
-     }
+    nome: "Mariia",
+    idade: 21,
+    endereco: {
+         logradouro: 'Rua B',
+         numero: 121
+    }
 }
 console.log (
-     `
-          Me chamo ${pessoa.nome},
-          tenho ${pessoa.idade} anos
-          e moro na ${pessoa.endereco['logradouro']}
-          número ${pessoa['endereco']['numero']}.
-     
-     `
+    `
+         Me chamo ${pessoa.nome},
+         tenho ${pessoa.idade} anoss
+         e moro na ${pessoa.endereco['logradouro']}
+         número ${pessoa['endereco']['numero']}.
+    
+    `
 )
 
 
@@ -43,7 +43,7 @@ console.log (
 //      console.log ("Agora estamos calculando o triplo de " + valor)
 //      return
 //           3 * valor
-     
+    
 // }
 // console.log (triplo(5))
 
@@ -56,7 +56,7 @@ console.log (
 
 
 // //arrow function
-// const dobro = n => n * 2
+// const dobro = n => n * 3
 
 // console.log(dobro (2))
 
@@ -79,11 +79,11 @@ console.log (
 
 
 // const triplo = function (n){
-     //      if (n !== undefined)
-     //           return 3 * n
-     //      return 3 * 5
-     // }
-     
+    //      if (n !== undefined)
+    //           return 3 * n
+    //      return 3 * 5
+    // }
+    
 
 // function eAgora (f1, f2){
 //      return f1() * f2()
@@ -106,7 +106,7 @@ console.log (
 //      if (a === b){
 //           return a + b
 //      }
-     
+    
 // }
 
 // const resultado1 = soma (3, 3)
